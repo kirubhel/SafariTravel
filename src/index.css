@@ -1,13 +1,109 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+}
+.banner {
+  background-image: url('../src/assets/banner.png');
+  background-size: cover;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.banner2 {
+  background-image: url('../src/assets/banner2.png');
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: cover;
+}
+
+.banner4 {
+  background-image: url('../src/assets/banner4.png');
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: auto;
+
+}
+
+.banner5 {
+  background-image: url('../src/assets/banner5.png');
+  background-size: cover;
+  background-position: 100%;
+  background-repeat: no-repeat;
+}
+
+.banner6 {
+  background-image: url('../src/assets/lastSec.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+
+}
+
+.formc {
+  display: block;
+  width: 100%;
+
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.slick-dots li button:before {
+  color: #00ADE9;
+  font-size: 12px !important;
+}
+
+.slick-dots li.slick-active button:before {
+  color: #00ADE9 !important;
+}
+
+.apply {
+
+  background-image: url('/src/assets/apply.png');
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: cover;
+}
+
+.bagent {
+  background-image: url('/src/assets/becomeagent.png');
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: cover;
+}
+
+.join {
+
+  background-image: url('/src/assets/joinUs.png');
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: cover;
+
+}
+
+.contactu {
+  background-image: url('/src/assets/contactus.png');
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: cover;
+}
+
+.conhot {
+  background-image: url('../src/assets/conhot.png');
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+
+
+}
+.leaflet-container {
+  height: 60vh;
+  width: 100%;
 }
