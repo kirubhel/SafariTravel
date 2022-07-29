@@ -28,7 +28,7 @@ function Header() {
           </ul>
         </div>
       </div>
-      <div className="h-28 bg-twhite">
+      <div className="h-28 bg-twhite sticky top-0">
         <div className="py-3  flex justify-between items-center mx-auto w-[80%] ">
           <img src={logo} className="w-[120px] h-30" alt="logo" />
 
