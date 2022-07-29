@@ -31,7 +31,7 @@ function Header() {
       <div className="h-28 bg-twhite ">
         <div className="py-3  flex justify-between items-center mx-auto w-[80%] ">
          
-
+ <img src={logo} className="w-[120px] h-30" alt="logo" />
           <ul className="flex justify-between  text-tblack">
             <li className={location.pathname==="/"?"flex justify-center mr-6 underline underline-offset-8 decoration-back decoration-solid decoration-2 ":" flex justify-center mr-6 hover:underline underline-offset-8 decoration-back decoration-solid decoration-2 "}>
              <Link to="/">
